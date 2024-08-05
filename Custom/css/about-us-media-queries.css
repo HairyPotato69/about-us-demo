@@ -1,4 +1,4 @@
-@media (max-width: 480px) { 
+@media (max-width: 600px) { 
     html,
     body{
         width: 100%;
@@ -7,6 +7,10 @@
         margin: 0;
         overflow-x: hidden;
     }
+    /* #carousel{
+        margin-bottom: 2rem;
+    } */
+
     #about-us {
         align-items: center;
         display: flex;
@@ -14,13 +18,15 @@
         overflow: hidden;
     }
 
-    #about-us .jumbotron {
-        padding: 1rem 0;
+    #about-us .jumbotron .container{
         height:fit-content !important;
     }
     
     #about-us .about-malaysia h2{
         color:var(--color-black) !important;
+    }
+    #about-us .about-malaysia {
+        padding-top:0.5rem;
     }
 
     #about-us h2 {
@@ -30,10 +36,11 @@
     #about-us p {
         font-size: 0.875rem;
         margin: 0.5rem;
+        padding-bottom:0.5rem;
     }
 
     #about-us .container .row{
-        padding:0.5rem 0;
+        /* padding:0.5rem 0; */
         width: 100%;
     } 
 
@@ -84,10 +91,10 @@
         font-size: 1rem !important;
     }
 
-    #the-team #alex figure:hover .role,
+    #alex figure:hover .role,
     #thomas figure:hover .role,
     .hover-active .role{
-        transform: translateY(30px);
+        transform: translateY(50px);
 
     }
 
@@ -100,7 +107,7 @@
     #jia-en figure:hover .role,
     #jimmy figure:hover .role,
     .hover-active .role{
-        transform: translateY(2rem);
+        transform: translateY(5rem);
     }
 
     #jia-en figure:hover .name,
