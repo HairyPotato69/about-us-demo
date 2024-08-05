@@ -1,4 +1,4 @@
-@media screen and (max-width: 480px) {
+@media (max-width: 575.98px) { 
     html,
     body{
         width: 100%;
@@ -10,12 +10,14 @@
     #about-us {
         align-items: center;
         display: flex;
+        flex-wrap: wrap;
     }
 
     #about-us .jumbotron {
         padding: 1rem 0;
         height:fit-content !important;
     }
+
 
     #about-us h2 {
         font-size: 1.5rem; 
