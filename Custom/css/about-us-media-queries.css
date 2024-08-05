@@ -81,15 +81,30 @@
     }
 
     figure .role{
-        font-size: 0.75rem !important;
+        font-size: 1rem !important;
     }
 
-    figure:hover .role,
+    #the-team #alex figure:hover .role,
+    #thomas figure:hover .role,
     .hover-active .role{
-    transform: translateY(90px);
+        transform: translateY(30px);
+
     }
 
-    figure:hover .name
+    #alex figure:hover .name,
+    #thomas figure:hover.name,
+    .hover-active .name{
+        transform: translateY(50px);
+    }
+
+    #jia-en figure:hover .role,
+    #jimmy figure:hover .role,
+    .hover-active .role{
+        transform: translateY(2rem);
+    }
+
+    #jia-en figure:hover .name,
+    #jimmy figure:hover.name,
     .hover-active .name{
         transform: translateY(50px);
     }
