@@ -1,4 +1,4 @@
-@media (max-width: 600px) { 
+@media screen and (max-width: 480px) { 
     html,
     body{
         width: 100%;
@@ -7,12 +7,9 @@
         margin: 0;
         overflow-x: hidden;
     }
-    /* #carousel{
-        margin-bottom: 2rem;
-    } */
-
+    
     #about-us {
-        align-items: center;
+        height:100%;
         display: flex;
         flex-wrap: wrap;
         overflow: hidden;
@@ -121,3 +118,9 @@
         transform: scale(1.1);
     }
 }
+
+/* @media screen and (max-width: 360px) {
+    #about-us{
+        height:100%;
+    }
+} */
